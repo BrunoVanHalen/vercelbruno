@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 59%, rgba(146,28,195,1) 81%, rgba(226,231,55,1) 99%, rgba(226,231,55,1) 100%);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 17%, rgba(146,28,195,1) 35%, rgba(226,231,55,1) 95%);
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: table;
+    font-size: 30px;
+}
+nav a:hover {
+color: #be6be4;
+}
+.um{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(146,28,195,1) 35%, rgba(116,119,3,1) 100%);
+    text-align: center;
+    
+}
+.dois{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 38%, rgba(146,28,195,1) 51%, rgba(226,231,55,1) 99%, rgba(226,231,55,1) 100%);
+}
+h3{
+    font-size: 27px;
+}
+footer{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    color: hsl(308, 94%, 13%);
+    background-color: #edf066;
+}
+.lego{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 13%, rgba(146,28,195,1) 52%, rgba(253,255,183,1) 90%, rgba(226,231,55,1) 100%);
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+.logo{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.img1{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.img2{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.img3{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
